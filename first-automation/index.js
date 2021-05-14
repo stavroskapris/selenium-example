@@ -1,0 +1,10 @@
+// import { Builder, By, Key, util } from "selenium-webdriver";
+const { Builder, By, Key, util } = require("selenium-webdriver");
+
+googleSearch = async () => {
+    let driver = await new Builder().forBrowser('firefox').build();
+
+    await driver.get("http://google.com");
+
+    await driver.findElement(By.name("q")).sendKeys("Selenium", Key.RETURN);
+}
