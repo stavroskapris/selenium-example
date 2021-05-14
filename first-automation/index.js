@@ -1,4 +1,3 @@
-// import { Builder, By, Key, util } from "selenium-webdriver";
 const { Builder, By, Key, util } = require("selenium-webdriver");
 
 googleSearch = async () => {
