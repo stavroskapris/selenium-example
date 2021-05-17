@@ -18,4 +18,6 @@ const driver = new Builder()
     }))
     .build();
 
-driver.get("https://www.spitogatos.gr")
+    driver.get("https://www.google.gr")
+//  driver.get("https://whatismyipaddress.com/")
+
